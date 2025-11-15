@@ -1,0 +1,60 @@
+{
+  "test_id": "tc_001",
+  "description": "Current state of Excel file - Abo_Solomon 2010",
+  "excel_file": "PRELIM_v1.6.xlsm",
+  "extraction_date": "2025-11-15T09:37:18.673464",
+  "metadata": {
+    "extractor_version": "1.0",
+    "excel_data_only": true,
+    "note": "Values extracted from last Excel calculation"
+  },
+  "inputs": {
+    "assay": {
+      "assay_info": "Abo_Solomon 2010 | Crude specific distillation curve",
+      "source_sheet": "Main Input & Output",
+      "note": "Assay identification from displayed properties"
+    },
+    "parameters": {
+      "note": "Input parameter extraction needs cell location mapping"
+    }
+  },
+  "expected_results": {
+    "products": {
+      "gasoline_vol_pct": 0.2822592620158187,
+      "jet_vol_pct": 0.1582688456645359,
+      "diesel_vol_pct": 0.3218841081910571,
+      "fuel_oil_vol_pct": 0.03380124191772865,
+      "coke_vol_pct": 0.011631979047545104,
+      "liquid_heavy_ends_vol_pct": 0.04791404452157586,
+      "rfg_vol_pct": 5.657571677608126e-17,
+      "lpg_vol_pct": 0.027350882166737953,
+      "petrochemical_feedstocks_vol_pct": 0.013685044214488696,
+      "asphalt_vol_pct": 0.005221138362109268,
+      "atres_vol_pct": 0.004479693831359014,
+      "lube_vol_pct": 0.0030951961083293595,
+      "btx_vol_pct": 0.02071644766813038,
+      "naphtha_vol_pct": 0.06410576888763862,
+      "vgo_vol_pct": 0.005586347402945232,
+      "gasoline_bpd": 28688.38890096041,
+      "jet_bpd": 16086.197359489393,
+      "diesel_bpd": 32715.796147395653,
+      "fuel_oil_bpd": 3435.505239211244,
+      "coke_bpd": 1182.2561152487363
+    },
+    "energy": {
+      "note": "Energy extraction needs cell location mapping"
+    },
+    "emissions": {
+      "note": "Emissions extraction needs cell location mapping"
+    }
+  },
+  "validation": {
+    "relative_tolerance": 1e-05,
+    "absolute_tolerance": 1e-08,
+    "critical_fields": [
+      "products.gasoline_vol_pct",
+      "products.diesel_vol_pct",
+      "products.jet_vol_pct"
+    ]
+  }
+}

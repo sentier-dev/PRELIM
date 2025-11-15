@@ -1,0 +1,752 @@
+{
+  "Crude Unit": {
+    "Atmospheric Crude Distillation": {},
+    "Process Unit Capacity": {
+      "Gas requirement (imp)": {
+        "units": "scf/bbl",
+        "value": 63.559400220060915,
+        "min": 32.26,
+        "max": 107.53,
+        "default": "Calc"
+      },
+      "Inlet Temperature": {
+        "units": "oC",
+        "value": 280,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Outlet Temperature": {
+        "units": "oC",
+        "value": 385,
+        "min": 330,
+        "max": 399,
+        "default": null
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 0.7,
+        "min": 0.7,
+        "max": 0.7,
+        "default": 0.7
+      },
+      "Steam Consuption": {
+        "units": "lb/bbl at 900 Psig",
+        "value": 5.3908996629504795,
+        "min": 0.2,
+        "max": 11.9,
+        "default": "Calc"
+      },
+      "Vac Distillation Stripping Steam": {
+        "units": "lb/bbl feed",
+        "value": 5.1,
+        "min": null,
+        "max": null,
+        "default": null
+      }
+    },
+    "Desalter Specific Power": {
+      "Gas requirement (imp)": {
+        "units": "scf/bbl",
+        "value": 106.19909826414138,
+        "min": 53,
+        "max": 196,
+        "default": "Calc"
+      },
+      "Inlet Temperature": {
+        "units": "oC",
+        "value": 160,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Outlet Temperature": {
+        "units": "oC",
+        "value": 399,
+        "min": 340,
+        "max": 400,
+        "default": 400
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 2.2,
+        "min": 1.4,
+        "max": 2.5,
+        "default": 2.2
+      },
+      "Steam Consumption": {
+        "units": "lb/bbl at 900 Psig",
+        "value": 6.870754472387866,
+        "min": 1.35,
+        "max": 7.4,
+        "default": "Calc"
+      },
+      "Kero Specific Steam": {
+        "units": "lb/bbl Kero",
+        "value": 9.685953196666519,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Diesel Specific Steam": {
+        "units": "lb/bbl Diesel",
+        "value": 9.685953196666519,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "AGO Specific Steam": {
+        "units": "lb/bbl AGO",
+        "value": 9.685953196666519,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "ATM Resid Specific Steam": {
+        "units": "lb/bbl AR",
+        "value": 9.685953196666519,
+        "min": null,
+        "max": "Inlet temperatures are adjusted to reflect the global average gas use for CDU & VDU",
+        "default": null
+      }
+    },
+    "Vacuum Distillation": {}
+  },
+  "Hydrotreating": {
+    "Hydrotreating_Naphtha_Coking refinery": {},
+    "Process Unit Capacity": {
+      "Hydrogen make up": {
+        "units": "kg/bbl feed",
+        "value": 2.15,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 143.69999999999996,
+        "min": null,
+        "max": 321,
+        "default": 143.7
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 6.26,
+        "min": 2.1,
+        "max": 7.9,
+        "default": 6.26
+      },
+      "Steam": {
+        "units": "MJ/bbl",
+        "value": 4.21,
+        "min": null,
+        "max": 9.5,
+        "default": 4.21
+      }
+    },
+    "Hydrotreating_Kerosene_Coking refinery": {},
+    "Hydrotreating_Diesel_Coking refinery": {},
+    "Hydrotreating_FCC Feed_Coking refinery  ": {},
+    "Hydrotreating_FCC gasoline_Coking refinery": {},
+    "Hydrotreating_Coker Naphtha ": {},
+    "Hydrotreating_Resid-Hydrocracker Naphtha": {},
+    "Hydrotreating_Residue (RHT)": {}
+  },
+  "Kerosene Merox Unit": {
+    "_params": {
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 0.1,
+        "min": null,
+        "max": null,
+        "default": "N.A."
+      }
+    }
+  },
+  "Gas Oil Hydrocracker": {
+    "Process Unit Capacity": {},
+    "Coking Refinery Hydrogen make up": {
+      "Gas requirement (imp)": {
+        "units": "Coking Refinery",
+        "value": null,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "HGO + VGO Stripping Steam": {
+        "units": "lb/bbl feed",
+        "value": 5,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 8,
+        "min": 3.3888888888888884,
+        "max": 18,
+        "default": "Calc"
+      },
+      "Reactor": {
+        "units": "kWh/bbl",
+        "value": 6.4,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Fractionator": {
+        "units": "kWh/bbl fractionator feed",
+        "value": 1.6,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "H2 mass % in hydrocarbon gas": {
+        "units": "wt%",
+        "value": 19.118732681050155,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Yield Calculation Method": {
+        "units": null,
+        "value": 1,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Industry Average": {
+        "units": "lb/bbl fuel oil",
+        "value": 1,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Gary Method (Coking Refinery)": {
+        "units": "lb/bbl feed",
+        "value": 2,
+        "min": null,
+        "max": null,
+        "default": null
+      }
+    }
+  },
+  "Fluid Catalytic Cracking FCC": {
+    "FCC Process Unit": {},
+    "Process Unit Capacity": {
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 8.61111111111111,
+        "min": 2.8055555555555554,
+        "max": 11,
+        "default": 4.12
+      },
+      "Alky Steam": {
+        "units": "lb/bbl",
+        "value": 75.1695865293076,
+        "min": 54.176278579681146,
+        "max": 78.55560394053765,
+        "default": null
+      },
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 57,
+        "min": 10,
+        "max": 71,
+        "default": null
+      }
+    },
+    "Alkylation Process Unit": {}
+  },
+  "Delayed Coking": {
+    "Process Unit Capacity": {
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 189,
+        "min": 119,
+        "max": 218,
+        "default": null
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl ",
+        "value": 3.54,
+        "min": 1.2,
+        "max": 3.611111111111111,
+        "default": null
+      },
+      "Coker": {
+        "units": "kWh/bbl",
+        "value": 3.061621621621622,
+        "min": 3.2,
+        "max": 3.2,
+        "default": 3.2
+      },
+      "Fractionator": {
+        "units": null,
+        "value": null,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Steam": {
+        "units": "lb/bbl feed",
+        "value": 2.8,
+        "min": -20.045223074482024,
+        "max": 44.08594669421553,
+        "default": null
+      },
+      "Coker Gas Oil Stripping Steam": {
+        "units": "lb/bbl feed",
+        "value": 2.8,
+        "min": null,
+        "max": null,
+        "default": 5
+      }
+    }
+  },
+  "Resid Hydrocracker": {
+    "Process Unit Capacity": {
+      "H2 Consumption": {
+        "units": "scf/bbl",
+        "value": 1860.8423667448433,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Gas requirement (imp)": {
+        "units": "scf/bbl ",
+        "value": 65.00000000000001,
+        "min": 59.3,
+        "max": 59.3,
+        "default": null
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl total HC liquids",
+        "value": 1.55,
+        "min": 1.55,
+        "max": 1.55,
+        "default": null
+      },
+      "Residue Stripping Steam": {
+        "units": "lb/bbl residue",
+        "value": 5,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Desulphurization ": {
+        "units": "wt%",
+        "value": 40,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Feed cracked to gas": {
+        "units": "wt%",
+        "value": 5,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "H mass % in hydrocarbon gas (sulphur-free)": {
+        "units": "wt%",
+        "value": 21.192286580281134,
+        "min": null,
+        "max": null,
+        "default": null
+      }
+    }
+  },
+  "Naphtha Catalytic Reformer": {
+    "Process Unit Capacity": {
+      "KPIs": {
+        "units": "Units",
+        "value": null,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 364,
+        "min": 276,
+        "max": 323,
+        "default": 323
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 0.92,
+        "min": 0.59,
+        "max": 3,
+        "default": 0.92
+      },
+      "Specific Steam consumption": {
+        "units": "lb/bbl",
+        "value": 30,
+        "min": 30,
+        "max": 40,
+        "default": 30
+      },
+      "Reformer Fuel Gas Yield": {
+        "units": "%",
+        "value": 6.4,
+        "min": 4.6,
+        "max": 11.5,
+        "default": null
+      }
+    }
+  },
+  "Isomerization Unit": {
+    "Process Unit Capacity": {
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 355,
+        "min": 300,
+        "max": 463,
+        "default": 355
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 1.14,
+        "min": 1.08,
+        "max": 1.5,
+        "default": 1.14
+      }
+    }
+  },
+  "Residue FCC": {
+    "Process Unit Capacity": {
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 42,
+        "min": null,
+        "max": 105,
+        "default": 105
+      },
+      "LCO Stripping Steam": {
+        "units": "lb/bbl",
+        "value": 0.97,
+        "min": null,
+        "max": 20,
+        "default": null
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 5.95,
+        "min": 0.75,
+        "max": 6,
+        "default": null
+      },
+      "Reactor": {
+        "units": "kWh/bbl",
+        "value": 4.165,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Fractionator": {
+        "units": "kWh/bbl",
+        "value": 1.7850000000000004,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Coke yield": {
+        "units": "wt%",
+        "value": 7.7,
+        "min": null,
+        "max": 15.9,
+        "default": 7.7
+      },
+      "Cokeburn energy": {
+        "units": "MJ/bbl",
+        "value": 339,
+        "min": 100,
+        "max": 728,
+        "default": 339
+      }
+    }
+  },
+  "VSB": {
+    "Process Unit Capacity": {
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 120,
+        "min": null,
+        "max": 269,
+        "default": 120
+      },
+      "Fuel gas": {
+        "units": "MJ/bbl",
+        "value": 46,
+        "min": null,
+        "max": 93,
+        "default": 46
+      },
+      "Natural gas": {
+        "units": "MJ/bbl",
+        "value": 30,
+        "min": null,
+        "max": 83,
+        "default": 30
+      },
+      "Internal fuel": {
+        "units": "MJ/bbl",
+        "value": 44,
+        "min": null,
+        "max": 93,
+        "default": 44
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 0.46,
+        "min": 0.3,
+        "max": 0.9,
+        "default": 0.46
+      }
+    }
+  },
+  "LUBE": {},
+  "Steam Methane Reformer": {
+    "Process Unit Capacity": {
+      "Feedstock": {
+        "units": "scf NG/scf H2",
+        "value": 0.31259968102073366,
+        "min": null,
+        "max": 0.318,
+        "default": 0.31259968102073366
+      },
+      "Heating Fuel": {
+        "units": "scf NG/scf H2",
+        "value": 0.0342902711323764,
+        "min": null,
+        "max": 0.268,
+        "default": 0.0342902711323764
+      },
+      "Power": {
+        "units": "kWh/scf H2",
+        "value": 0.000601,
+        "min": null,
+        "max": 0.000601,
+        "default": 0.000601
+      },
+      "Steam": {
+        "units": "kg/scf H2",
+        "value": -0.009912280701754383,
+        "min": null,
+        "max": null,
+        "default": -0.009912280701754383
+      },
+      "PSA off-gas": {
+        "units": "CO2g/scf H2",
+        "value": 18.62,
+        "min": null,
+        "max": null,
+        "default": 18.62
+      },
+      "Mechanical losses": {
+        "units": "kg/d",
+        "value": 0.05,
+        "min": null,
+        "max": null,
+        "default": null
+      }
+    }
+  },
+  "MTBE Unit": {
+    "Process Unit Capacity": {
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 61.2,
+        "min": null,
+        "max": 285.6,
+        "default": 61.2
+      },
+      "Steam Requirement": {
+        "units": "lb/bbl",
+        "value": 130.70027207348076,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 1.6,
+        "min": 1.3,
+        "max": 2,
+        "default": 1.6
+      }
+    }
+  },
+  "POLY Unit": {
+    "Process Unit Capacity": {
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 24.9,
+        "min": null,
+        "max": 74.3,
+        "default": 24.9
+      },
+      "Steam Requirement": {
+        "units": "lb/bbl",
+        "value": 49.706735596857456,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 1.3,
+        "min": 0.9,
+        "max": 1.7,
+        "default": 1.3
+      }
+    }
+  },
+  "BTX Unit": {
+    "Process Unit Capacity": {
+      "Gas requirement (imp)": {
+        "units": "MJ/bbl",
+        "value": 85.6,
+        "min": null,
+        "max": 266,
+        "default": 85.6
+      },
+      "Steam Requirement": {
+        "units": "lb/bbl",
+        "value": 100.83559850643154,
+        "min": null,
+        "max": null,
+        "default": null
+      },
+      "Specific Power consumption": {
+        "units": "kWh/bbl",
+        "value": 1.3,
+        "min": 0.1,
+        "max": 1.5,
+        "default": 1.3
+      }
+    }
+  },
+  "Prices ($US/bbl)": {},
+  "Product": {},
+  "LSR & HSR Naphtha": {},
+  "Straight Run Kerosene": {},
+  "Straight Run  Diesel": {},
+  "AGO": {},
+  "AR": {},
+  "LVGO": {},
+  "HVGO": {},
+  "Vacuum Resid": {},
+  "Hydrotreated Naphtha": {},
+  "Reformate": {},
+  "Hydrogen ($/kg)": {},
+  "Pentanes": {},
+  "Alkylate": {},
+  "FCC C4": {},
+  "FCC Gasoline": {},
+  "FCC LCO": {},
+  "RFG": {},
+  "Coke ($/mt)": {},
+  "Conv Gasoline": {},
+  "Jet Fuel A": {},
+  "ULSD": {},
+  "Fuel Oil": {},
+  "Liquid Heavy Ends Precursor of Heavy Oil": {},
+  "LPG": {},
+  "Petrochemical Feedstocks ($/kg)": {},
+  "BTX": {},
+  "Asphalt": {},
+  "Molecular Breakdown of Off-Gas Streams: Coking Refinery": {
+    "Mass %": {
+      "C2H4": {
+        "units": "C3H6",
+        "value": "C3H8",
+        "min": "C4H8",
+        "max": "iC4",
+        "default": "nC4"
+      },
+      "2": {
+        "units": 0.3,
+        "value": 31,
+        "min": 0.2,
+        "max": 16,
+        "default": 23
+      }
+    },
+    "33": {},
+    "5.452301321866539": {},
+    "5.884074941451991": {
+      "2": {
+        "units": 5,
+        "value": 20,
+        "min": 10,
+        "max": 5,
+        "default": 10
+      }
+    },
+    "7.3": {},
+    "5.631215596492343": {
+      "3": {
+        "units": 21,
+        "value": 9,
+        "min": 32,
+        "max": 18,
+        "default": 6
+      }
+    },
+    "36": {
+      "1.2": {
+        "units": 1.748,
+        "value": 1.882,
+        "min": 2.504,
+        "max": 2.51,
+        "default": 2.5
+      },
+      "14.407988587731813": {
+        "units": 14.407988587731813,
+        "value": 18.330308529945555,
+        "min": 14.407988587731813,
+        "max": 17.38382099827883,
+        "default": 17.38382099827883
+      }
+    }
+  },
+  "Summary of Performance Characteristics and Typical Cost by CHP Technology": {
+    "_params": {
+      "Nominal Capacity \nTypical Commercially \nAvailable\n(MW)": {
+        "units": "CHP (%)",
+        "value": null,
+        "min": null,
+        "max": "Power-to-heat\n Ratio",
+        "default": null
+      }
+    }
+  },
+  "None": {
+    "_params": {
+      "1": {
+        "units": 66,
+        "value": 71,
+        "min": 0.685,
+        "max": 0.47,
+        "default": 1.06
+      }
+    }
+  },
+  "Microtrubine": {
+    "_params": {
+      "0.1": {
+        "units": 77,
+        "value": 80,
+        "min": 0.785,
+        "max": 0.5,
+        "default": 1.2
+      }
+    }
+  },
+  "Steam Turbine (chemical plant)": {},
+  "Fuel cell (PAFC, MCFC commercially available; PEM and SOFC to develop)": {},
+  "NGCC-CHP (Gas turbine&Steam Turbine) for Coking Refinery": {},
+  "NGCC-CHP (Gas turbine&Steam Turbine) for Hydro Refinery": {}
+}

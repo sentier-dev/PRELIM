@@ -1,0 +1,701 @@
+{
+  "total_formulas": 2740,
+  "sample_dependencies": {
+    "AK5": {
+      "formula": "='Expert Input'!D206",
+      "dependencies": [
+        "'Expert Input'!D206",
+        "D206"
+      ]
+    },
+    "AK7": {
+      "formula": "='Expert Input'!G206",
+      "dependencies": [
+        "'Expert Input'!G206",
+        "G206"
+      ]
+    },
+    "AL7": {
+      "formula": "='Expert Input'!J206",
+      "dependencies": [
+        "'Expert Input'!J206",
+        "J206"
+      ]
+    },
+    "AM7": {
+      "formula": "='Expert Input'!D205",
+      "dependencies": [
+        "'Expert Input'!D205",
+        "D205"
+      ]
+    },
+    "C9": {
+      "formula": "='Assay Inventory'!C12",
+      "dependencies": [
+        "'Assay Inventory'!C12",
+        "C12"
+      ]
+    },
+    "D9": {
+      "formula": "='Assay Inventory'!D12",
+      "dependencies": [
+        "'Assay Inventory'!D12",
+        "D12"
+      ]
+    },
+    "E9": {
+      "formula": "='Assay Inventory'!E12",
+      "dependencies": [
+        "'Assay Inventory'!E12",
+        "E12"
+      ]
+    },
+    "F9": {
+      "formula": "=E9",
+      "dependencies": [
+        "E9"
+      ]
+    },
+    "I9": {
+      "formula": "=Constants!H12",
+      "dependencies": [
+        "H12"
+      ]
+    },
+    "AC9": {
+      "formula": "=U69",
+      "dependencies": [
+        "U69"
+      ]
+    },
+    "AD9": {
+      "formula": "=N551",
+      "dependencies": [
+        "N551"
+      ]
+    },
+    "AE9": {
+      "formula": "=SUM(AC9:AD9)",
+      "dependencies": [
+        "AC9",
+        "AD9"
+      ]
+    },
+    "AF9": {
+      "formula": "=AF10/'Energy & Unit Conversions'!$G$80",
+      "dependencies": [
+        "AF10"
+      ]
+    },
+    "AG9": {
+      "formula": "=AG10/'Energy & Unit Conversions'!$G$80",
+      "dependencies": [
+        "AG10"
+      ]
+    },
+    "AH9": {
+      "formula": "=AH10/'Energy & Unit Conversions'!$G$80",
+      "dependencies": [
+        "AH10"
+      ]
+    },
+    "AK9": {
+      "formula": "=AF9*$AK$5/100*$AK$7/100",
+      "dependencies": [
+        "AF9"
+      ]
+    },
+    "AL9": {
+      "formula": "=AF9*$AK$5/100*$AL$7/100",
+      "dependencies": [
+        "AF9"
+      ]
+    },
+    "AM9": {
+      "formula": "=AF9*$AM$7/100",
+      "dependencies": [
+        "AF9"
+      ]
+    },
+    "C10": {
+      "formula": "='Assay Inventory'!C13",
+      "dependencies": [
+        "'Assay Inventory'!C13",
+        "C13"
+      ]
+    },
+    "D10": {
+      "formula": "='Assay Inventory'!D13",
+      "dependencies": [
+        "'Assay Inventory'!D13",
+        "D13"
+      ]
+    },
+    "E10": {
+      "formula": "='Assay Inventory'!E13",
+      "dependencies": [
+        "'Assay Inventory'!E13",
+        "E13"
+      ]
+    },
+    "F10": {
+      "formula": "=E10",
+      "dependencies": [
+        "E10"
+      ]
+    },
+    "I10": {
+      "formula": "=Constants!$T$6+Constants!$U$6*(I9*E10)",
+      "dependencies": [
+        "I9",
+        "E10"
+      ]
+    },
+    "AC10": {
+      "formula": "=U70",
+      "dependencies": [
+        "U70"
+      ]
+    },
+    "AD10": {
+      "formula": "=N552",
+      "dependencies": [
+        "N552"
+      ]
+    },
+    "AE10": {
+      "formula": "=SUM(AC10:AD10)",
+      "dependencies": [
+        "AC10",
+        "AD10"
+      ]
+    },
+    "AF10": {
+      "formula": "=AF11/AF15",
+      "dependencies": [
+        "AF11",
+        "AF15"
+      ]
+    },
+    "AG10": {
+      "formula": "=AG11/AG15",
+      "dependencies": [
+        "AG11",
+        "AG15"
+      ]
+    },
+    "AH10": {
+      "formula": "=AH11/AH15",
+      "dependencies": [
+        "AH11",
+        "AH15"
+      ]
+    },
+    "AK10": {
+      "formula": "=AF10*$AK$5/100*$AK$7/100",
+      "dependencies": [
+        "AF10"
+      ]
+    },
+    "AL10": {
+      "formula": "=AF10*$AK$5/100*$AL$7/100",
+      "dependencies": [
+        "AF10"
+      ]
+    },
+    "AM10": {
+      "formula": "=AF10*$AM$7/100",
+      "dependencies": [
+        "AF10"
+      ]
+    },
+    "C11": {
+      "formula": "='Assay Inventory'!C14",
+      "dependencies": [
+        "'Assay Inventory'!C14",
+        "C14"
+      ]
+    },
+    "D11": {
+      "formula": "='Assay Inventory'!D14",
+      "dependencies": [
+        "'Assay Inventory'!D14",
+        "D14"
+      ]
+    },
+    "E11": {
+      "formula": "='Assay Inventory'!E14",
+      "dependencies": [
+        "'Assay Inventory'!E14",
+        "E14"
+      ]
+    },
+    "F11": {
+      "formula": "=E11",
+      "dependencies": [
+        "E11"
+      ]
+    },
+    "AC11": {
+      "formula": "=U71",
+      "dependencies": [
+        "U71"
+      ]
+    },
+    "AD11": {
+      "formula": "=N553",
+      "dependencies": [
+        "N553"
+      ]
+    },
+    "AE11": {
+      "formula": "=SUM(AC11:AD11)",
+      "dependencies": [
+        "AC11",
+        "AD11"
+      ]
+    },
+    "AF11": {
+      "formula": "=(AE11+AB39)*'Process Correlations'!D225/100",
+      "dependencies": [
+        "'Process Correlations'!D225",
+        "AE11",
+        "AB39",
+        "D225"
+      ]
+    },
+    "AG11": {
+      "formula": "=(AE11+AB39)*'Process Correlations'!D226/100",
+      "dependencies": [
+        "'Process Correlations'!D226",
+        "AE11",
+        "AB39",
+        "D226"
+      ]
+    },
+    "AH11": {
+      "formula": "=AE11+AB39-AF11-AG11-AI11",
+      "dependencies": [
+        "AE11",
+        "AB39",
+        "AF11",
+        "AG11",
+        "AI11"
+      ]
+    },
+    "AI11": {
+      "formula": "=AF22",
+      "dependencies": [
+        "AF22"
+      ]
+    },
+    "AK11": {
+      "formula": "=AF11*$AK$5/100*$AK$7/100",
+      "dependencies": [
+        "AF11"
+      ]
+    },
+    "AL11": {
+      "formula": "=AF11*$AK$5/100*$AL$7/100",
+      "dependencies": [
+        "AF11"
+      ]
+    },
+    "AM11": {
+      "formula": "=AF11*$AM$7/100",
+      "dependencies": [
+        "AF11"
+      ]
+    },
+    "C12": {
+      "formula": "='Assay Inventory'!C15",
+      "dependencies": [
+        "'Assay Inventory'!C15",
+        "C15"
+      ]
+    },
+    "D12": {
+      "formula": "='Assay Inventory'!D15",
+      "dependencies": [
+        "'Assay Inventory'!D15",
+        "D15"
+      ]
+    },
+    "E12": {
+      "formula": "='Assay Inventory'!E15",
+      "dependencies": [
+        "'Assay Inventory'!E15",
+        "E15"
+      ]
+    },
+    "F12": {
+      "formula": "=E12",
+      "dependencies": [
+        "E12"
+      ]
+    },
+    "AC12": {
+      "formula": "=U72",
+      "dependencies": [
+        "U72"
+      ]
+    },
+    "AD12": {
+      "formula": "=N554",
+      "dependencies": [
+        "N554"
+      ]
+    },
+    "AE12": {
+      "formula": "=IFERROR((AC11*AC12+AD11*AD12)/AE11,0)",
+      "dependencies": [
+        "AC11",
+        "AC12",
+        "AD11",
+        "AD12",
+        "AE11"
+      ]
+    },
+    "AI12": {
+      "formula": "=AF24",
+      "dependencies": [
+        "AF24"
+      ]
+    },
+    "AK12": {
+      "formula": "=AF12",
+      "dependencies": [
+        "AF12"
+      ]
+    },
+    "AL12": {
+      "formula": "=AF12",
+      "dependencies": [
+        "AF12"
+      ]
+    },
+    "AM12": {
+      "formula": "=AF12",
+      "dependencies": [
+        "AF12"
+      ]
+    },
+    "C13": {
+      "formula": "='Assay Inventory'!C16",
+      "dependencies": [
+        "'Assay Inventory'!C16",
+        "C16"
+      ]
+    },
+    "D13": {
+      "formula": "='Assay Inventory'!D16",
+      "dependencies": [
+        "'Assay Inventory'!D16",
+        "D16"
+      ]
+    },
+    "E13": {
+      "formula": "='Assay Inventory'!E16",
+      "dependencies": [
+        "'Assay Inventory'!E16",
+        "E16"
+      ]
+    },
+    "F13": {
+      "formula": "=E13",
+      "dependencies": [
+        "E13"
+      ]
+    },
+    "AC13": {
+      "formula": "=U73",
+      "dependencies": [
+        "U73"
+      ]
+    },
+    "AD13": {
+      "formula": "=N555",
+      "dependencies": [
+        "N555"
+      ]
+    },
+    "AE13": {
+      "formula": "=IFERROR((AC11*AC13+AD11*AD13)/AE11,0)",
+      "dependencies": [
+        "AC11",
+        "AC13",
+        "AD11",
+        "AD13",
+        "AE11"
+      ]
+    },
+    "AK13": {
+      "formula": "=AF13",
+      "dependencies": [
+        "AF13"
+      ]
+    },
+    "AL13": {
+      "formula": "=AF13",
+      "dependencies": [
+        "AF13"
+      ]
+    },
+    "AM13": {
+      "formula": "=AF13",
+      "dependencies": [
+        "AF13"
+      ]
+    },
+    "C14": {
+      "formula": "='Assay Inventory'!C17",
+      "dependencies": [
+        "'Assay Inventory'!C17",
+        "C17"
+      ]
+    },
+    "D14": {
+      "formula": "='Assay Inventory'!D17",
+      "dependencies": [
+        "'Assay Inventory'!D17",
+        "D17"
+      ]
+    },
+    "E14": {
+      "formula": "='Assay Inventory'!E17",
+      "dependencies": [
+        "'Assay Inventory'!E17",
+        "E17"
+      ]
+    },
+    "F14": {
+      "formula": "=E14",
+      "dependencies": [
+        "E14"
+      ]
+    },
+    "AC14": {
+      "formula": "=U74",
+      "dependencies": [
+        "U74"
+      ]
+    },
+    "AD14": {
+      "formula": "=N556",
+      "dependencies": [
+        "N556"
+      ]
+    },
+    "AE14": {
+      "formula": "=IFERROR(141.5/(AE15/1000)-131.5,0)",
+      "dependencies": [
+        "AE15"
+      ]
+    },
+    "AK14": {
+      "formula": "=AF14",
+      "dependencies": [
+        "AF14"
+      ]
+    },
+    "AL14": {
+      "formula": "=AF14",
+      "dependencies": [
+        "AF14"
+      ]
+    },
+    "AM14": {
+      "formula": "=AF14",
+      "dependencies": [
+        "AF14"
+      ]
+    },
+    "C15": {
+      "formula": "='Assay Inventory'!C18",
+      "dependencies": [
+        "'Assay Inventory'!C18",
+        "C18"
+      ]
+    },
+    "D15": {
+      "formula": "='Assay Inventory'!D18",
+      "dependencies": [
+        "'Assay Inventory'!D18",
+        "D18"
+      ]
+    },
+    "E15": {
+      "formula": "='Assay Inventory'!E18",
+      "dependencies": [
+        "'Assay Inventory'!E18",
+        "E18"
+      ]
+    },
+    "F15": {
+      "formula": "=E15",
+      "dependencies": [
+        "E15"
+      ]
+    },
+    "AC15": {
+      "formula": "=U75",
+      "dependencies": [
+        "U75"
+      ]
+    },
+    "AD15": {
+      "formula": "=N557",
+      "dependencies": [
+        "N557"
+      ]
+    },
+    "AE15": {
+      "formula": "=IFERROR(AE11/AE10,0)",
+      "dependencies": [
+        "AE11",
+        "AE10"
+      ]
+    },
+    "AF15": {
+      "formula": "=141.5/(AF14+131.5)*1000",
+      "dependencies": [
+        "AF14"
+      ]
+    },
+    "AG15": {
+      "formula": "=141.5/(AG14+131.5)*1000",
+      "dependencies": [
+        "AG14"
+      ]
+    },
+    "AH15": {
+      "formula": "=141.5/(AH14+131.5)*1000",
+      "dependencies": [
+        "AH14"
+      ]
+    },
+    "AK15": {
+      "formula": "=AF15",
+      "dependencies": [
+        "AF15"
+      ]
+    },
+    "AL15": {
+      "formula": "=AF15",
+      "dependencies": [
+        "AF15"
+      ]
+    },
+    "AM15": {
+      "formula": "=AF15",
+      "dependencies": [
+        "AF15"
+      ]
+    },
+    "C16": {
+      "formula": "='Assay Inventory'!C19",
+      "dependencies": [
+        "'Assay Inventory'!C19",
+        "C19"
+      ]
+    },
+    "D16": {
+      "formula": "='Assay Inventory'!D19",
+      "dependencies": [
+        "'Assay Inventory'!D19",
+        "D19"
+      ]
+    },
+    "E16": {
+      "formula": "='Assay Inventory'!E19",
+      "dependencies": [
+        "'Assay Inventory'!E19",
+        "E19"
+      ]
+    },
+    "F16": {
+      "formula": "=E16",
+      "dependencies": [
+        "E16"
+      ]
+    },
+    "AC16": {
+      "formula": "=U76",
+      "dependencies": [
+        "U76"
+      ]
+    },
+    "AD16": {
+      "formula": "=N558",
+      "dependencies": [
+        "N558"
+      ]
+    },
+    "AE16": {
+      "formula": "=IFERROR((AC11*AC16+AD11*AD16)/AE11,0)",
+      "dependencies": [
+        "AC11",
+        "AC16",
+        "AD11",
+        "AD16",
+        "AE11"
+      ]
+    },
+    "AF16": {
+      "formula": "=IFERROR(IFERROR($AB$31/SUM($AF$11:$AH$11)*100+$AE$16,0)/(SUMPRODUCT('Process Correlations'!D225:D22...",
+      "dependencies": [
+        "'Process Correlations'!D225",
+        "'Process Correlations'!E225",
+        "'Process Correlations'!D225",
+        "'Process Correlations'!E225",
+        "D225",
+        "D227",
+        "E225",
+        "E227",
+        "D225",
+        "D227",
+        "E225",
+        "AE16"
+      ]
+    },
+    "AG16": {
+      "formula": "=IFERROR(IFERROR($AB$31/SUM($AF$11:$AH$11)*100+$AE$16,0)/(SUMPRODUCT('Process Correlations'!D225:D22...",
+      "dependencies": [
+        "'Process Correlations'!D225",
+        "'Process Correlations'!E225",
+        "'Process Correlations'!D225",
+        "'Process Correlations'!E226",
+        "D225",
+        "D227",
+        "E225",
+        "E227",
+        "D225",
+        "D227",
+        "E226",
+        "AE16"
+      ]
+    },
+    "AH16": {
+      "formula": "=IFERROR(IFERROR($AB$31/SUM($AF$11:$AH$11)*100+$AE$16,0)/(SUMPRODUCT('Process Correlations'!D225:D22...",
+      "dependencies": [
+        "'Process Correlations'!D225",
+        "'Process Correlations'!E225",
+        "'Process Correlations'!D225",
+        "'Process Correlations'!E227",
+        "D225",
+        "D227",
+        "E225",
+        "E227",
+        "D225",
+        "D227",
+        "E227",
+        "AE16"
+      ]
+    }
+  },
+  "sheet_dependencies": {
+    "Expert Input": 4,
+    "Assay Inventory": 24,
+    "Process Correlations": 14
+  }
+}
